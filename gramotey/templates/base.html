@@ -1,0 +1,157 @@
+{% load static i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="//db.onlinewebfonts.com/c/45f5fadb3dbf0140e10b498c7cb030a6?family=Canterbury" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'css/media.css' %}">
+    <link rel="stylesheet" href="{% static 'css/gallery.css' %}">
+    <link rel="stylesheet" href="{% static 'css/teachers.css' %}">
+    <link rel="stylesheet" href="{% static 'css/preloader.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="{% static 'img/logos/logo & book white.png' %}" type="image/x-icon">
+    {% block links %}
+    {% endblock %}
+    <title>GRAMOTEY</title>
+
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="nav_slogan">
+            <div class="nav_slogan_container">
+                <!-- <img class="navsloganimage" src="{% static 'img/logos/Безымянный-1.png' %}" alt=""> -->
+            <p class="slogan">Scientia potentia est</p>
+            <p class="tel">LB140000265</p>
+            </div>
+            
+        </div>
+        <div class="container">
+            <div class="nav_content">
+                <div class="nav_logo">
+                    <h2>
+                    <a href="{% url 'main' %}">
+                        Gramotey School
+                        <!-- <img src="{% static 'img/logos/logo2_green.png' %}" alt=""> -->
+                    </a> </h2>
+                    <!-- <img class="navsloganimageniz" src="{% static 'img/logos/слоган.png' %}" alt=""> -->
+                </div>
+                <ul class="nav_ul">
+                    <div class="closebtn" onclick="closeNav()">✕</div>
+                    <li>
+                        <button class="dropbtn"><a href="{% url 'main' %}">{% trans 'Главная' %}</a></button>
+                    </li>
+                    <li>
+                        <div class="dropdown" style="float:left;">
+                            <button class="dropbtn">{% trans 'Родителям' %}</button>
+                            <div class="dropdown-content">
+                                <a href="{% url 'admission_to_school' %}">{% trans 'Прием в школу' %}</a>
+                                <a href="{% url 'lesson_Schedule' %}">{% trans 'Расписание уроков' %}</a>
+                                <a href="{% url 'meeting_schedule' %}">{% trans 'Расписание родителских собраний' %}</a>
+                                <a href="{% url 'uniform' %}">{% trans 'Форма учащихся' %}</a>
+                                <a href="{% url 'payment_schedule' %}">{% trans 'График внесения оплаты' %}</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown" style="float:left;">
+                            <button class="dropbtn">{% trans 'Ученикам' %}
+                            </button>
+                            <div class="dropdown-content" >
+                                <a href="{% url 'for_students' %}">{% trans 'Ученикам' %}</a>
+                                <a href="{% url 'for_graduates' %}">{% trans 'Выпускникам' %}</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown" style="float:left;">
+                            <button class="dropbtn" style="background-color: none;">{% trans  'Галeрея' %}</button>
+                            <div class="dropdown-content" >
+                                <a href="{% url 'mentors' %}">{% trans 'Учителя' %}</a>
+                                <a href="{% url 'students' %}">{% trans 'Ученики' %}</a>
+                                <a href="{% url 'graduates' %}">{% trans 'Выпускники' %}</a>
+                                <a href="{% url 'events' %}">{% trans 'Мероприятия' %}</a>
+                            </div>
+                        </div>
+                    </li>
+                   
+                    <li>
+                        <form id="language-form" action="{% url 'set_language' %}" method="post">
+                            {% csrf_token %}
+                            <input name="next" type="hidden" value="{{ redirect_to }}">
+                            <select class="form-select" name="language" onchange="document.getElementById('language-form').submit()">
+                              {% get_current_language as LANGUAGE_CODE %}
+                              {% get_available_languages as LANGUAGES %}
+                              {% get_language_info_list for LANGUAGES as languages %}
+                              {% for language in languages %}
+                                <option value="{{language.code}}"{% if language.code == LANGUAGE_CODE %} selected {% endif %}>
+                                  {{language.code}}
+                                </option>
+                              {% endfor %}
+                            </select>
+                          </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ GRAMOTEY</button>
+    </div>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__item">
+                <div>
+                    <img height="150px" src="{% static 'img/logos/logo & book white.png' %}" alt="">
+                </div>
+                
+
+                <div class="footer__links">
+                    <h2>{% trans 'Контакты' %}</h2>
+                    <p>{% trans 'г. Ош, ул.Шамшиева 1а' %}</p>
+                    <div class="from">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="#">+996-3222-5-64-27</a>
+                    </div>
+                    <div class="from">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="#">info@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="{% static 'css/app.js' %}"></script>
+
+    <script>
+
+        let nav = document.querySelector('#nav')
+        const openNav = () => {
+            nav.style.left = "0";
+            nav.style.position = "fixed";
+        }
+        
+        const closeNav = () => {
+            nav.style.left = "-100%";
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
