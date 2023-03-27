@@ -275,9 +275,9 @@ input[type="password"] {
 .header_img {
   height: 90vh;
   width: 100%;
-  background: center / 3000px no-repeat url(/static/img/download/Panorama-pics.jpg);
+  background: center / 3000px no-repeat url(/static/img/download/Panorama.jpg);
   /* background-image: url ('/static/img/download/Panorama-pics.jpg'); */
-}
+} 
 
 .header_shadow {
   height: 90vh;

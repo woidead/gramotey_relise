@@ -1,5 +1,5 @@
 from django.contrib import admin
-from school.models import Teacher, Category, Student, Graduate, Date, Events, Licence
+from school.models import Teacher, Category, Student, Graduate, Licence
 
 # Register your models here.
 
@@ -18,12 +18,7 @@ class ImageAdmin(admin.ModelAdmin):
 admin.site.register(Teacher, TeacherAdmin)
 admin.site.register(Student, TeacherAdmin)
 admin.site.register(Graduate, TeacherAdmin)
-admin.site.register(Events)
 
 admin.site.register(Category)
 admin.site.register(Licence)
 
-
-class DateAdmin(admin.ModelAdmin):
-    list_display = ('start', 'duration', 'end',)
-admin.site.register(Date, DateAdmin)

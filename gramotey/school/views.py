@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from school.models import Teacher, Student, Graduate, Gallery, Events, Licence
+from school.models import Teacher, Student, Graduate, Licence
 from django.http import HttpResponseRedirect
 
 
@@ -51,10 +51,6 @@ def graduates(request):
     graduates = Graduate.objects.all()
     
     return render(request, 'gallery/graduates.html', {'graduates': graduates})
-
-def events(request):
-    events = Events.objects.all()
-    return render(request, 'gallery/events.html', {'events': events})
 
 
 

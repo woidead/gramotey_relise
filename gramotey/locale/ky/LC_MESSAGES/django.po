@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-16 23:18+0600\n"
+"POT-Creation-Date: 2023-03-27 22:56+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,332 +18,350 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: env/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:7
-#: env/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:221
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:221
 msgid "The install worked successfully! Congratulations!"
 msgstr ""
 
-#: env/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:207
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:207
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
 
-#: env/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:222
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:222
 #, python-format
 msgid ""
 "You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
-"configured any URLs."
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
 msgstr ""
 
-#: env/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:230
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:230
 msgid "Django Documentation"
 msgstr ""
 
-#: env/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:231
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:231
 msgid "Topics, references, &amp; how-to’s"
 msgstr ""
 
-#: env/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:239
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:239
 msgid "Tutorial: A Polling App"
 msgstr ""
 
-#: env/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:240
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:240
 msgid "Get started with Django"
 msgstr ""
 
-#: env/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:248
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:248
 msgid "Django Community"
 msgstr ""
 
-#: env/lib/python3.9/site-packages/django/views/templates/default_urlconf.html:249
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:249
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#: templates/base.html:42
+#: .\templates\base.html:49
 msgid "Главная"
 msgstr "Башкы"
 
-#: templates/base.html:46
+#: .\templates\base.html:53
 msgid "Родителям"
 msgstr "Ата-энелерге"
 
-#: templates/base.html:48 templates/for_parents/Admission_to_School.html:12
+#: .\templates\base.html:55 .\templates\for_parents\Admission_to_School.html:12
 msgid "Прием в школу"
 msgstr "Мектепке кабыл алуу"
 
-#: templates/base.html:49 templates/for_parents/lesson_schedule.html:10
+#: .\templates\base.html:56 .\templates\for_parents\lesson_schedule.html:10
 msgid "Расписание уроков"
 msgstr "Сабактын графиги"
 
-#: templates/base.html:50
+#: .\templates\base.html:57
 msgid "Расписание родителских собраний"
-msgstr "Сабактын графиги"
+msgstr "Ата-энелердин чогулушунун графиги"
 
-#: templates/base.html:51 templates/for_parents/uniform.html:10
+#: .\templates\base.html:58 .\templates\for_parents\uniform.html:10
 msgid "Форма учащихся"
 msgstr "Окуучулардын формасы"
 
-#: templates/base.html:52 templates/for_parents/payment_schedule.html:10
+#: .\templates\base.html:59 .\templates\for_parents\payment_schedule.html:10
 msgid "График внесения оплаты"
 msgstr "Төлөө графиги"
 
-#: templates/base.html:58 templates/base.html:61
+#: .\templates\base.html:65 .\templates\base.html:68
 msgid "Ученикам"
 msgstr "Окуучуларга"
 
-#: templates/base.html:62 templates/for_students/for_graduates.html:11
+#: .\templates\base.html:69 .\templates\for_students\for_graduates.html:11
 msgid "Выпускникам"
 msgstr "Бүтүрүүчүлөргө"
 
-#: templates/base.html:68
+#: .\templates\base.html:75
 msgid "Галeрея"
 msgstr "Галeрея"
 
-#: templates/base.html:70
+#: .\templates\base.html:77
 msgid "Учителя"
 msgstr "Мугалимдер"
 
-#: templates/base.html:71
+#: .\templates\base.html:78
 msgid "Ученики"
 msgstr "Окуучулар"
 
-#: templates/base.html:72
+#: .\templates\base.html:79
 msgid "Выпускники"
 msgstr "Бүтүрүүчүлөр"
 
-#: templates/base.html:73
-msgid "Мероприятия"
-msgstr "Иш-чаралар"
-
-#: templates/base.html:117
+#: .\templates\base.html:123
 msgid "Контакты"
 msgstr "Байланыш үчүн"
 
-#: templates/base.html:118
+#: .\templates\base.html:124
 msgid "г. Ош, ул.Шамшиева 1а"
 msgstr "Ош ш., Шамшиев көч., 1а"
 
-#: templates/for_parents/Admission_to_School.html:19
+#: .\templates\for_parents\Admission_to_School.html:19
+
+#| msgid ""
+#| "Этап №1: родители собирают пакет документов(копии паспортов родителей, "
+#| "копия свидетельства о рождении ребенка, справка о составе семьи,1 фото "
+#| "3х4)"
 msgid ""
-"Этап №1: родители собирают пакет документов(копии паспортов родителей, копия "
-"свидетельства о рождении ребенка, справка о составе семьи,1 фото 3х4)"
+"Этап №1: родители собирают пакет документов (копии паспортов родителей, "
+"копия свидетельства о рождении ребенка, справка о составе семьи, 1 фото 3х4)"
 msgstr ""
-"1-Этап: ата-энелер документтердин топтомун чогултушат (ата-энелердин "
+"Этап №1: ата-энелер документтердин топтомун чогултушат (ата-энелердин "
 "паспортторунун көчүрмөлөрү, көчүрмөсү баланын туулгандыгы тууралуу күбөлүк, "
 "үй-бүлө курамы тууралуу маалымкат,1 сүрөт 3х4)"
 
-#: templates/for_parents/Admission_to_School.html:23
+#: .\templates\for_parents\Admission_to_School.html:23
 msgid "Этап №2: родитель пишет заявление в приемной школы с 1 по 31 мая"
 msgstr ""
-"Этап 2: ата-эне 1-майдан 31-майга чейин мектептин кабылдамасына арыз жазат"
+"Этап №2: ата-эне 1-майдан 31-майга чейин мектептин кабылдамасына арыз жазат"
 
-#: templates/for_parents/Admission_to_School.html:27
+#: .\templates\for_parents\Admission_to_School.html:27
+
+#| msgid ""
+#| "Этап №3: родители приходят на собеседование с ребенком (оба родителя и "
+#| "ребенок) по графику с 1 по 30-июня"
 msgid ""
 "Этап №3: родители приходят на собеседование с ребенком (оба родителя и "
-"ребенок) по графику с 1 по 30-июня"
+"ребенок) по графику с 1 по 30 июня"
 msgstr ""
-"Этап 3: ата-энелер бала менен маектешүүгө келишет (ата-энеси жана экөө тең "
+"Этап №3: ата-энелер бала менен маектешүүгө келишет (ата-энеси жана экөө тең "
 "бала) 1-июндан 30-июнга чейинки график боюнча"
 
-#: templates/for_parents/Admission_to_School.html:31
+#: .\templates\for_parents\Admission_to_School.html:31
 msgid ""
 "Этап №4: родитель приводит ребенка на вступительные испытания по графику с 1 "
 "по 30 июня при условии наличия мест и своевременно поданного заявления"
 msgstr ""
-"4-Этап: ата-эне баланы 1-график боюнча кабыл алуу сынагына алып келет 30-"
+"Этап №4: ата-эне баланы 1-график боюнча кабыл алуу сынагына алып келет 30-"
 "июнга чейин орундар жана өз убагында арыз берилген шартта"
 
-#: templates/for_parents/Admission_to_School.html:34
+#: .\templates\for_parents\Admission_to_School.html:34
 msgid ""
 "Этап №5: школа производит зачисление ребенка в соответствующий класс при "
 "условии успешного прохождения ребенком вступительных испытаний"
 msgstr ""
-"Этап 5: мектеп баланы тиешелүү класска кабыл алат эгерде бала кирүү "
+"Этап №5: мектеп баланы тиешелүү класска кабыл алат эгерде бала кирүү "
 "сынагынан ийгиликтүү өтсө"
 
-#: templates/for_parents/Admission_to_School.html:41
+#: .\templates\for_parents\Admission_to_School.html:41
 msgid "Расписание школы на 2022-2023 учебный год:"
 msgstr "2022-2023-окуу жылына карата мектептин графиги:"
 
-#: templates/for_parents/Admission_to_School.html:45
+#: .\templates\for_parents\Admission_to_School.html:45
 msgid "Начало учебного года"
 msgstr "Окуу жылынын башталышы"
 
-#: templates/for_parents/Admission_to_School.html:50
+#: .\templates\for_parents\Admission_to_School.html:50
 msgid "Продолжительность учебного года"
-msgstr ""
+msgstr "Окуу жылынын узактыгы"
 
-#: templates/for_parents/Admission_to_School.html:55
+#: .\templates\for_parents\Admission_to_School.html:51
+
+#| msgid "4 (8 недель)"
+msgid "34 недели"
+msgstr "34 жума"
+
+#: .\templates\for_parents\Admission_to_School.html:55
 msgid "Окончание учебного года"
 msgstr "Окуу жылынын узактыгы"
 
-#: templates/for_parents/Admission_to_School.html:61
-#: templates/for_parents/Admission_to_School.html:95
-#: templates/for_parents/uniform.html:14
+#: .\templates\for_parents\Admission_to_School.html:61
+#: .\templates\for_parents\Admission_to_School.html:95
+#: .\templates\for_parents\uniform.html:14
 msgid "Четверть"
 msgstr "Чейрек"
 
-#: templates/for_parents/Admission_to_School.html:63
+#: .\templates\for_parents\Admission_to_School.html:63
 msgid "Праздничные дни"
 msgstr "Майрам күндөрү"
 
-#: templates/for_parents/Admission_to_School.html:67
-#: templates/for_parents/Admission_to_School.html:100
+#: .\templates\for_parents\Admission_to_School.html:67
+#: .\templates\for_parents\Admission_to_School.html:100
 msgid "1 (8,5 недель)"
 msgstr "1 (8,5 жума)"
 
-#: templates/for_parents/Admission_to_School.html:71
-#: templates/for_parents/Admission_to_School.html:105
+#: .\templates\for_parents\Admission_to_School.html:71
+#: .\templates\for_parents\Admission_to_School.html:105
 msgid "2 (7,5 недель)"
 msgstr "2 (7,5 жума)"
 
-#: templates/for_parents/Admission_to_School.html:77
-#: templates/for_parents/Admission_to_School.html:110
+#: .\templates\for_parents\Admission_to_School.html:77
+#: .\templates\for_parents\Admission_to_School.html:110
 msgid "3 (10 недель)*"
 msgstr "3 (10 жума)*"
 
-#: templates/for_parents/Admission_to_School.html:84
-#: templates/for_parents/Admission_to_School.html:116
+#: .\templates\for_parents\Admission_to_School.html:84
+#: .\templates\for_parents\Admission_to_School.html:116
 msgid "4 (8 недель)"
 msgstr "4 (8 жума)"
 
-#: templates/for_parents/Admission_to_School.html:96
+#: .\templates\for_parents\Admission_to_School.html:96
 msgid "Начало"
 msgstr "Баштоо"
 
-#: templates/for_parents/Admission_to_School.html:97
+#: .\templates\for_parents\Admission_to_School.html:97
 msgid "Окончание"
 msgstr "Аяктоо"
 
-#: templates/for_parents/Admission_to_School.html:122
+#: .\templates\for_parents\Admission_to_School.html:122
 msgid "Государственные экзамены у 9 класса"
 msgstr "9-класстагы мамлекеттик экзамендер"
 
-#: templates/for_parents/Admission_to_School.html:127
+#: .\templates\for_parents\Admission_to_School.html:127
 msgid "Государственные экзамены у 11 класса"
 msgstr "11-класстагы мамлекеттик экзамендер"
 
-#: templates/for_parents/lesson_schedule.html:15
+#: .\templates\for_parents\lesson_schedule.html:15
 msgid "1 смена"
 msgstr "1 смена"
 
-#: templates/for_parents/lesson_schedule.html:41
+#: .\templates\for_parents\lesson_schedule.html:41
 msgid "2 смена"
 msgstr "2 смена"
 
-#: templates/for_parents/meeting_schedule.html:10
+#: .\templates\for_parents\meeting_schedule.html:10
 msgid "Расписание родительских собраний"
 msgstr "Ата-энелердин чогулушунун графиги"
 
-#: templates/for_parents/meeting_schedule.html:15
+#: .\templates\for_parents\meeting_schedule.html:15
 msgid "Дата"
 msgstr "Дата"
 
-#: templates/for_parents/meeting_schedule.html:16
+#: .\templates\for_parents\meeting_schedule.html:16
 msgid "Время"
 msgstr "Убакыт"
 
-#: templates/for_parents/meeting_schedule.html:21
+#: .\templates\for_parents\meeting_schedule.html:21
 msgid "«А» класс – 18.00"
 msgstr "«А» класс – 18.00"
 
-#: templates/for_parents/meeting_schedule.html:22
+#: .\templates\for_parents\meeting_schedule.html:22
 msgid "«Б» класс – 19.00"
 msgstr ""
 
-#: templates/for_parents/payment_schedule.html:15
+#: .\templates\for_parents\payment_schedule.html:15
 msgid "Период обучения"
 msgstr "Окуу мезгили"
 
-#: templates/for_parents/payment_schedule.html:16
+#: .\templates\for_parents\payment_schedule.html:16
 msgid "Дни внесения оплаты:"
 msgstr "Төлөө күндөрү:"
 
-#: templates/for_parents/payment_schedule.html:21
+#: .\templates\for_parents\payment_schedule.html:21
 msgid "Сентябрь 2022"
 msgstr ""
 
-#: templates/for_parents/payment_schedule.html:22
+#: .\templates\for_parents\payment_schedule.html:22
 msgid "до 30.08.2022"
 msgstr "30.08.2022 чейин"
 
-#: templates/for_parents/payment_schedule.html:27
+#: .\templates\for_parents\payment_schedule.html:27
 msgid "Октябрь 2022"
 msgstr ""
 
-#: templates/for_parents/payment_schedule.html:28
+#: .\templates\for_parents\payment_schedule.html:28
 msgid "до 25.09.2022"
 msgstr "25.09.2022 чейин"
 
-#: templates/for_parents/payment_schedule.html:32
+#: .\templates\for_parents\payment_schedule.html:32
 msgid "Ноябрь 2022"
 msgstr ""
 
-#: templates/for_parents/payment_schedule.html:33
+#: .\templates\for_parents\payment_schedule.html:33
 msgid "до 25.10.2022"
 msgstr "25.10.2022 чейин"
 
-#: templates/for_parents/payment_schedule.html:37
+#: .\templates\for_parents\payment_schedule.html:37
 msgid "Декабрь 2022"
 msgstr ""
 
-#: templates/for_parents/payment_schedule.html:38
+#: .\templates\for_parents\payment_schedule.html:38
 msgid "до 25.11.2022"
 msgstr "25.11.2022 чейин"
 
-#: templates/for_parents/payment_schedule.html:42
+#: .\templates\for_parents\payment_schedule.html:42
 msgid "Январь 2023"
 msgstr ""
 
-#: templates/for_parents/payment_schedule.html:43
+#: .\templates\for_parents\payment_schedule.html:43
 msgid "до 25.12.2022"
 msgstr "25.12.2022 чейин"
 
-#: templates/for_parents/payment_schedule.html:47
+#: .\templates\for_parents\payment_schedule.html:47
 msgid "Февраль 2023"
 msgstr ""
 
-#: templates/for_parents/payment_schedule.html:48
+#: .\templates\for_parents\payment_schedule.html:48
 msgid "до 25.01.2023"
 msgstr "25.01.2023 чейин"
 
-#: templates/for_parents/payment_schedule.html:52
+#: .\templates\for_parents\payment_schedule.html:52
 msgid "Март 2023"
 msgstr ""
 
-#: templates/for_parents/payment_schedule.html:53
+#: .\templates\for_parents\payment_schedule.html:53
 msgid "до 25.02.2023"
 msgstr "25.02.2023 чейин"
 
-#: templates/for_parents/payment_schedule.html:57
+#: .\templates\for_parents\payment_schedule.html:57
 msgid "Апрель 2023"
 msgstr ""
 
-#: templates/for_parents/payment_schedule.html:58
+#: .\templates\for_parents\payment_schedule.html:58
 msgid "до 25.03.2023"
 msgstr "25.03.2023 чейин"
 
-#: templates/for_parents/payment_schedule.html:62
+#: .\templates\for_parents\payment_schedule.html:62
 msgid "Май 2023"
 msgstr ""
 
-#: templates/for_parents/payment_schedule.html:67
+#: .\templates\for_parents\payment_schedule.html:63
+
+#| msgid "до 25.01.2023"
+msgid "до 25.04.2023"
+msgstr "25.01.2023 чейин"
+
+#: .\templates\for_parents\payment_schedule.html:67
 msgid "Место внесения оплаты:"
 msgstr "Төлөө орду"
 
-#: templates/for_parents/uniform.html:15
+#: .\templates\for_parents\uniform.html:15
 msgid "Форма Одежды"
 msgstr "Кийим Формасы"
 
-#: templates/for_parents/uniform.html:18
+#: .\templates\for_parents\uniform.html:18
 msgid "Первая"
 msgstr "Биринчи"
 
-#: templates/for_parents/uniform.html:19 templates/for_parents/uniform.html:31
+#: .\templates\for_parents\uniform.html:19
+#: .\templates\for_parents\uniform.html:31
 msgid ""
 "Классический костюм темно-синего цвета + значок школы + галстук (для "
 "мальчиков) или белая футболка с логотипом школы (зеленая футболка только в "
@@ -353,12 +371,13 @@ msgstr ""
 "балдар) же мектептин логотиби бар ак футболка (жашыл футболка гана физика "
 "күнү)"
 
-#: templates/for_parents/uniform.html:22
+#: .\templates\for_parents\uniform.html:22
 msgid "Вторая"
 msgstr "Экинчи"
 
-#: templates/for_parents/uniform.html:23 templates/for_parents/uniform.html:27
-#: templates/for_parents/uniform.html:36
+#: .\templates\for_parents\uniform.html:23
+#: .\templates\for_parents\uniform.html:27
+#: .\templates\for_parents\uniform.html:36
 msgid ""
 "Классический костюм темно-синего цвета + значок школы + галстук (для "
 "мальчиков)"
@@ -366,19 +385,19 @@ msgstr ""
 "Классикалык кочкул көк түстөгү костюм + мектеп сүрөтчөсү + галстук (үчүн "
 "балдар)"
 
-#: templates/for_parents/uniform.html:26
+#: .\templates\for_parents\uniform.html:26
 msgid "Третья"
 msgstr "Үчүнчү"
 
-#: templates/for_parents/uniform.html:30
+#: .\templates\for_parents\uniform.html:30
 msgid "Четвертая"
 msgstr "Төртүнчү"
 
-#: templates/for_parents/uniform.html:35
+#: .\templates\for_parents\uniform.html:35
 msgid "Официальные мероприятия (линейки, экзамены)"
 msgstr "Расмий иш-чаралар (башкаруучулар, экзамендер)"
 
-#: templates/for_parents/uniform.html:39
+#: .\templates\for_parents\uniform.html:39
 msgid ""
 "Юбка ниже колен! Брюки - нижняя ширина от 20 см для старших классов, от 12 "
 "см для младших классов. (для девочек) Мальчики – темно-синие костюмы и "
@@ -392,11 +411,11 @@ msgstr ""
 "Юбкалар) же сарафандар жана жакалуу Блузкалар тунук эмес (дизайнсыз), ичинде "
 "кийим, каалаган түстөгү Костюм-бул шым же юбка жана куртка!!!"
 
-#: templates/for_students/for_students.html:10
+#: .\templates\for_students\for_students.html:10
 msgid "Ученикам для учебы"
 msgstr "Окуу үчүн студенттерге"
 
-#: templates/for_students/for_students.html:15
+#: .\templates\for_students\for_students.html:15
 msgid ""
 "— это настоящий кладезь, здесь есть видеоуроки, тренажеры и тесты по всем "
 "школьным предметам с 1 по 11 класс."
@@ -404,7 +423,7 @@ msgstr ""
 "- бул чыныгы кенч, Видеосабактар, тренажерлор жана бардыгы боюнча тесттер "
 "бар мектеп предметтерине 1-11-класстар кирет."
 
-#: templates/for_students/for_students.html:16
+#: .\templates\for_students\for_students.html:16
 msgid ""
 "— потрясающе красивая программа, имитирующая планетарий. Незаменимо для "
 "всех, кто интересуется астрономией, учитывая, что этот предмет вскоре "
@@ -414,11 +433,11 @@ msgstr ""
 "астрономияга кызыккандардын баары, бул тема жакында экенин эске алганда "
 "мектеп программасында пайда болот."
 
-#: templates/for_students/for_students.html:17
+#: .\templates\for_students\for_students.html:17
 msgid " — это 2000 произведений школьной программы в кратком изложении."
 msgstr "- бул кыскача мектеп программасынын 2000 чыгармасы."
 
-#: templates/for_students/for_students.html:18
+#: .\templates\for_students\for_students.html:18
 msgid ""
 " — интерактивный сервис для изучения английского языка. Есть бесплатный и "
 "расширенный платный доступ (стоимость на год соотносима с 2-3 занятиями с "
@@ -427,7 +446,7 @@ msgstr ""
 "- англис тилин үйрөнүү үчүн интерактивдүү кызмат. Акысыз жанакеңейтилген акы "
 "төлөө мүмкүнчүлүгү (жылдык наркы 2-3 класс менен байланыштуу тарбиячы)."
 
-#: templates/for_students/for_students.html:19
+#: .\templates\for_students\for_students.html:19
 msgid ""
 " — крупная онлайновая детская библиотека, которая содержит тексты "
 "программных произведений по литературе с 1 по 11 классы."
@@ -435,14 +454,14 @@ msgstr ""
 "- тексттерди камтыган ири онлайн балдар китепканасы 1 11 класстар менен "
 "адабият боюнча программалык чыгармалар."
 
-#: templates/for_students/for_students.html:20
+#: .\templates\for_students\for_students.html:20
 msgid ""
 " — огромный справочно-информационный портал по правилам и сложностям "
 "русского языка."
 msgstr ""
 "- эрежелер жана кыйынчылыктар боюнча чоң маалымат-Маалымат порталы орус тили."
 
-#: templates/for_students/for_students.html:21
+#: .\templates\for_students\for_students.html:21
 msgid ""
 "— любопытный сервис по изучению английского языка для учеников разной "
 "степени подготовки."
@@ -450,7 +469,7 @@ msgstr ""
 "- ар кандай студенттер үчүн англис тилин үйрөнүү боюнча кызыктуу кызмат "
 "даярдык даражалары."
 
-#: templates/for_students/for_students.html:22
+#: .\templates\for_students\for_students.html:22
 msgid ""
 " — сайт с огромным количеством биографий писателей, кратких содержаний и "
 "полных текстов литературных произведений и сотней критических статей."
@@ -458,7 +477,7 @@ msgstr ""
 "— сайт с огромным количеством биографий писателей, кратких содержаний и "
 "полных текстов литературных произведений и сотней критических статей."
 
-#: templates/for_students/for_students.html:23
+#: .\templates\for_students\for_students.html:23
 msgid ""
 " — программа по математике с 1 по 11 класс, подготовка к экзаменам по "
 "предмету и готовые домашние задания."
@@ -466,7 +485,7 @@ msgstr ""
 "- 1-класстан 11-класска чейинки математика программасы, экзамендерге "
 "даярдануу предмети жана даяр үй тапшырмасы."
 
-#: templates/for_students/for_students.html:24
+#: .\templates\for_students\for_students.html:24
 msgid ""
 " — учебники, задачники, лабораторные работы и тесты по физике для учеников "
 "7-9 классов и учителей физики."
@@ -474,7 +493,7 @@ msgstr ""
 "- окуучулар үчүн Физика боюнча окуу китептери, тапшырмалар, лабораториялык "
 "иштер жана тесттер 7-9-класстар жана физика мугалимдери."
 
-#: templates/for_students/for_students.html:25
+#: .\templates\for_students\for_students.html:25
 msgid ""
 "— проект кафедры общей ядерной физики физического факультета МГУ. Лекции по "
 "физике и отдельный раздел для школьников «Популярно о науке»."
@@ -483,7 +502,7 @@ msgstr ""
 "Лекциялар аныкталды жана мектеп окуучулары үчүн өзүнчө бөлүм таанымал Илим "
 "жөнүндө"
 
-#: templates/for_students/for_students.html:26
+#: .\templates\for_students\for_students.html:26
 msgid ""
 " — фонд публикаций по химии, содержит учебники и практикумы по предмету, "
 "разработанные в том числе и в МГУ им. Ломоносова."
@@ -491,14 +510,14 @@ msgstr ""
 "- химия боюнча басылмалардын фонду, предмет боюнча окуу китептерин жана "
 "практикумдарды камтыйт,ММУ, анын ичинде иштелип чыккан. Ломоносова."
 
-#: templates/for_students/for_students.html:27
+#: .\templates\for_students\for_students.html:27
 msgid ""
 " — интерактивный мультимедиа учебник по органической химии для школьников."
 msgstr ""
 "- интерактивдүү мультимедиа мектеп окуучулары үчүн органикалык химия боюнча "
 "окуу китеби."
 
-#: templates/for_students/for_students.html:28
+#: .\templates\for_students\for_students.html:28
 msgid ""
 "— электронный учебный курс «Открытая биология» с разделением по направлениям "
 "«Ботаника», «Зоология», «Человек», «Общая биология» и «Экология»."
@@ -506,7 +525,7 @@ msgstr ""
 "- багыттар боюнча бөлүү менен «ачык биология» электрондук окуу "
 "курсу«Ботаника», «Зоология», «адам», «жалпы биология» жана «Экология»."
 
-#: templates/for_students/for_students.html:29
+#: .\templates\for_students\for_students.html:29
 msgid ""
 " — электронный учебный курс «Открытая биология» с разделением по "
 "направлениям «Ботаника», «Зоология», «Человек», «Общая биология» и "
@@ -516,11 +535,11 @@ msgstr ""
 "направлениям «Ботаника», «Зоология», «Человек», «Общая биология» и "
 "«Экология»."
 
-#: templates/for_students/for_students.html:30
+#: .\templates\for_students\for_students.html:30
 msgid " — мегаэнциклопедия о животных, населяющих планету."
 msgstr "- планетада жашаган жаныбарлар жөнүндө мегаэнциклопедия."
 
-#: templates/for_students/for_students.html:31
+#: .\templates\for_students\for_students.html:31
 msgid ""
 " — национальный проект, в котором собраны авторские разработки и презентации "
 "педагогов по всем предметам."
@@ -528,19 +547,19 @@ msgstr ""
 "- автордук иштеп чыгуулар жана презентациялар топтолгон улуттук долбоор "
 "бардык сабактар боюнча мугалимдер."
 
-#: templates/for_students/for_students.html:32
+#: .\templates\for_students\for_students.html:32
 msgid " — универсальная научно-популярная онлайн-энциклопедия."
 msgstr "универсалдуу илимий популярдуу онлайн энциклопедия."
 
-#: templates/for_students/for_students.html:33
+#: .\templates\for_students\for_students.html:33
 msgid " — универсальный словарь и междисциплинарная энциклопедия."
 msgstr "- универсалдуу Сөздүк жана дисциплиналар аралык энциклопедия."
 
-#: templates/for_students/for_students.html:34
+#: .\templates\for_students\for_students.html:34
 msgid " — электронная библиотека нехудожественной литературы"
 msgstr "- көркөм адабияттын электрондук китепканасы"
 
-#: templates/for_students/for_students.html:35
+#: .\templates\for_students\for_students.html:35
 msgid ""
 " — интересные квесты и задания по математике, логике, чтению и английскому "
 "языку для детей 5-10 лет."
@@ -548,7 +567,7 @@ msgstr ""
 "—математика, логика, окуу жана англис тили боюнча кызыктуу тапшырмалар жана "
 "тапшырмалар5-10 жаштагы балдар үчүн тил."
 
-#: templates/for_students/for_students.html:36
+#: .\templates\for_students\for_students.html:36
 msgid ""
 " — сборник уроков начальной школы с 1 по 4 классы по математике, русскому "
 "языку, окружающему миру и обучению грамоте. Доступ платный, но стоимость на "
@@ -558,7 +577,7 @@ msgstr ""
 "сабактар жыйнагы дүйнөнү курчап турган тил жана сабаттуулук боюнча окутуу. "
 "Кирүү акы төлөнөт, бирок наркы жыл миң рублдан ашпайт."
 
-#: templates/for_students/for_students.html:37
+#: .\templates\for_students\for_students.html:37
 msgid ""
 " — журнал, посвященный занимательным вопросам и задачам по математике, "
 "лингвистике, физике и другим наукам."
@@ -566,7 +585,7 @@ msgstr ""
 "- математика боюнча кызыктуу суроолорго жана маселелерге арналган журнал, "
 "лингвистика, физика жана башка илимдер."
 
-#: templates/for_students/for_students.html:38
+#: .\templates\for_students\for_students.html:38
 msgid ""
 " — онлайн-курсы по математике, физике, химии, биологии, технике, "
 "архитектуре, искусствоведению, лингвистике."
@@ -574,16 +593,16 @@ msgstr ""
 "-математика, физика, химия, биология, инженерия боюнча онлайн курстар, "
 "архитектура, искусство таануу, лингвистика."
 
-#: templates/for_students/for_students.html:39
+#: .\templates\for_students\for_students.html:39
 msgid " — бесплатные обучающие видео и уроки по физике и математике."
 msgstr ""
 "- физика жана математика боюнча акысыз окутуу видеолору жана сабактары."
 
-#: templates/for_students/for_students.html:40
+#: .\templates\for_students\for_students.html:40
 msgid "— удобный и простой сервис для изучения английского языка."
 msgstr "- англис тилин үйрөнүү үчүн ыңгайлуу жана жөнөкөй кызмат."
 
-#: templates/for_students/for_students.html:42
+#: .\templates\for_students\for_students.html:42
 msgid ""
 " — сервис по математике для учеников 5-11 классов. Подробный разбор тем и "
 "пошаговое решение задач."
@@ -591,7 +610,7 @@ msgstr ""
 "- 5-11-класстын окуучулары үчүн математика боюнча кызмат. Темаларды деталдуу "
 "талдоо жана милдеттерди этап-этабы менен чечүү."
 
-#: templates/for_students/for_students.html:43
+#: .\templates\for_students\for_students.html:43
 msgid ""
 " — онлайн-переводчик с десятка языков, а также грамматика английского, "
 "немецкого и французского языков."
@@ -599,65 +618,65 @@ msgstr ""
 "- он тилден онлайн котормочу, ошондой эле англис тилинин грамматикасы,немис "
 "жана француз тилдеринен."
 
-#: templates/for_students/for_students.html:44
+#: .\templates\for_students\for_students.html:44
 msgid "- Основы химии: образовательный сайт для школьников и студентов"
 msgstr ""
 "- Химиянын негиздери: мектеп окуучулары жана студенттер үчүн билим берүү "
 "сайты"
 
-#: templates/for_students/for_students.html:45
+#: .\templates\for_students\for_students.html:45
 msgid " - Калькулятор для химиков (химические реакции)"
 msgstr "- Химиктер үчүн Калькулятор (химиялык реакциялар)"
 
-#: templates/for_students/for_students.html:47
+#: .\templates\for_students\for_students.html:47
 msgid " - Химические элементы"
 msgstr "- Химиялык элементтер"
 
-#: templates/for_students/for_students.html:48
+#: .\templates\for_students\for_students.html:48
 msgid " - Занимательная химия: все о металлах "
 msgstr "- Көңүл ачуучу химия: металлдар жөнүндө"
 
-#: templates/for_students/for_students.html:49
+#: .\templates\for_students\for_students.html:49
 msgid " - История открытий химических элементов"
 msgstr "- Химиялык элементтердин ачылыш тарыхы"
 
-#: templates/for_students/for_students.html:55
+#: .\templates\for_students\for_students.html:55
 msgid " - Виртуальная лаборатория"
 msgstr "- Виртуалдык лаборатория"
 
-#: templates/for_students/for_students.html:57
+#: .\templates\for_students\for_students.html:57
 msgid " - Современные уроки биологии"
 msgstr "- Заманбап биология сабактары"
 
-#: templates/for_students/for_students.html:58
+#: .\templates\for_students\for_students.html:58
 msgid " - Словарь биологических терминов"
 msgstr "- Биологиялык терминдердин сөздүгү"
 
-#: templates/gallery/events.html:9
+#: .\templates\gallery\events.html:9
 msgid "Недавние мероприятия"
 msgstr "Акыркы иш-чаралар"
 
-#: templates/gallery/graduates.html:9
+#: .\templates\gallery\graduates.html:9
 msgid "Знакомьтесь, наши Выпускники"
 msgstr "Биздин бүтүрүүчүлөр менен таанышыңыз"
 
-#: templates/gallery/students.html:9
+#: .\templates\gallery\students.html:9
 msgid "Знакомьтесь, наши Ученики"
 msgstr "Биздин окуучулар менен таанышыңыз"
 
-#: templates/gallery/teachers.html:9
+#: .\templates\gallery\teachers.html:9
 msgid "Знакомьтесь, наши Учителя"
 msgstr "Биздин мугалимдер менен таанышыңыз"
 
-#: templates/main.html:13
+#: .\templates\main.html:13
 msgid "Общеобразовательное Учреждение «Грамотей»"
 msgstr "«Грамотей» Жалпы Билим Берүү Мекемеси"
 
-#: templates/main.html:32
+#: .\templates\main.html:32
 msgid "Наша миссия"
 msgstr "Биздин миссия"
 
-#: templates/main.html:34
+#: .\templates\main.html:34
 msgid ""
 "Миссия школы – раскрыть творческий потенциал, найти уникальный дар каждого "
 "ребенка, обеспечить его успешное личностное, интеллектуальное, творческое, "
@@ -667,11 +686,11 @@ msgstr ""
 "табуу баланын ийгиликтүү жеке, интеллектуалдык, чыгармачылык менен камсыз "
 "кылуу, руханий, социалдык, эмоционалдык жана физикалык өнүгүү."
 
-#: templates/main.html:42
+#: .\templates\main.html:42
 msgid "Наши задачи"
 msgstr "Биздин милдеттер"
 
-#: templates/main.html:46
+#: .\templates\main.html:46
 msgid ""
 "помочь ребенку найти себя, определить область своей успешности и создать "
 "проект эффективного САМОразвития;"
@@ -679,11 +698,11 @@ msgstr ""
 "балага өзүн табууга, ийгиликтин чөйрөсүн аныктоого жана түзүүгө жардам берүү "
 "натыйжалуу өзүн-өзү өнүктүрүү долбоору;"
 
-#: templates/main.html:48
+#: .\templates\main.html:48
 msgid "помочь ребенку овладеть основами фундаментальных наук;"
 msgstr "балага фундаменталдык илимдердин негиздерин үйрөнүүгө жардам берүү;"
 
-#: templates/main.html:50
+#: .\templates\main.html:50
 msgid ""
 "помочь ребенку научиться мыслить критически, нестандартно, оригинально, "
 "задавать вопросы и подвергать сомнению истины,"
@@ -691,7 +710,7 @@ msgstr ""
 "балага Сынчыл, кутудан тышкары, оригиналдуу ой жүгүртүүгө үйрөнүү, чындыкты "
 "суроо жана суроо,"
 
-#: templates/main.html:53
+#: .\templates\main.html:53
 msgid ""
 "помочь ребенку подготовиться к жизни в новых, неопределенных, постоянно "
 "меняющихся условиях;"
@@ -699,7 +718,7 @@ msgstr ""
 "балага жаңы, белгисиз, дайыма жашоого даярданууга жардам берүү өзгөрүп "
 "жаткан шарттар;"
 
-#: templates/main.html:56
+#: .\templates\main.html:56
 msgid ""
 "помочь ребенку понять, что жизнь человека – это САМОстроительство: САМ "
 "определяешь свои жизненные цели, САМ находишь пути их достижения, САМ несешь "
@@ -710,12 +729,12 @@ msgstr ""
 "табасың, өзүң көтөрөсүң ийгилигиң үчүн, ийгилигиң үчүн, жашооң үчүн "
 "жоопкерчилик;"
 
-#: templates/main.html:59
+#: .\templates\main.html:59
 msgid "убедить ребенка в том, что недостижимых целей нет, все – в твоих руках;"
 msgstr ""
 "баланы кол жеткис максаттар жок деп ишендирүү, бардыгы сиздин колуңузда;"
 
-#: templates/main.html:62
+#: .\templates\main.html:62
 msgid ""
 "помочь ребенку разработать и начать реализовывать свой жизненный проект, в "
 "основе которого – нравственные цели;"
@@ -723,11 +742,11 @@ msgstr ""
 "балага өзүнүн жашоо долбоорун иштеп чыгууга жана ишке ашырууга жардам берүү "
 "анын негизинде – адеп-ахлактык максаттар;"
 
-#: templates/main.html:64
+#: .\templates\main.html:64
 msgid "помочь ребенку строить свою счастливую жизнь;"
 msgstr "балага бактылуу жашоосун курууга жардам берүү;"
 
-#: templates/main.html:66
+#: .\templates\main.html:66
 msgid ""
 "воспитать детей, новых лидеров современного общества, на основе высоких "
 "академических и этических стандартов, глубокого уважения к интеллектуальным "
@@ -737,7 +756,7 @@ msgstr ""
 "академиялык жана этикалык стандарттарды сактоо, интеллектуалдык терең "
 "урматтоо жана маданий баалуулуктарга;"
 
-#: templates/main.html:69
+#: .\templates\main.html:69
 msgid ""
 "развить интеллект и творчество учеников, их индивидуальные способности с "
 "помощью инновационных стратегий обучения и развития, мы поддерживаем их "
@@ -747,15 +766,15 @@ msgstr ""
 "инновациялык окутуу жана өнүктүрүү стратегиялары менен биз аларды колдойбуз "
 "таланттар."
 
-#: templates/main.html:79
+#: .\templates\main.html:79
 msgid "Ценности"
 msgstr "Баалуулуктар"
 
-#: templates/main.html:85
+#: .\templates\main.html:85
 msgid "Обучение, ориентированное на ученика"
 msgstr "Окуучуга багытталган окуу"
 
-#: templates/main.html:87
+#: .\templates\main.html:87
 msgid ""
 "Процесс обучения в школе сложный и радостный: каждый ученик здесь успешно "
 "продвигается собственным путем – в соответствии со своими способностями и "
@@ -769,11 +788,11 @@ msgstr ""
 "жетишкендиктердин тилкесин көтөрүү, кыйынчылыктарды жеңүүгө үйрөнүү, өзүн-"
 "өзү сыйлоо сезимин жогорулатуу, өзүнө ишенүү "
 
-#: templates/main.html:93
+#: .\templates\main.html:93
 msgid "Вера в успех каждого"
 msgstr "Ийгиликке ишенүү"
 
-#: templates/main.html:95
+#: .\templates\main.html:95
 msgid ""
 "Мы верим в успех каждого. Неталантливых детей нет – нужно только помочь им "
 "раскрыть свой талант, предложить попробовать себя в разных областях и видах "
@@ -785,11 +804,11 @@ msgstr ""
 "көрүүнү сунуш кыл иш-чаралар. Ар бир студенттин өзүн бир нерседе сезиши биз "
 "үчүн маанилүү ийгиликтүү, көрүнүктүү, мазмундуу, кызыктуу."
 
-#: templates/main.html:101
+#: .\templates\main.html:101
 msgid "Уважение"
 msgstr "Сыйлоо"
 
-#: templates/main.html:103
+#: .\templates\main.html:103
 msgid ""
 "Самоуважение и уважение к другим; принятие другого, отличного от тебя, "
 "имеющего другие взгляды и убеждения; доверие, эмпатия и терпимость – основа "
@@ -805,11 +824,11 @@ msgstr ""
 "түрдүүлүктү жана өз ара урматтоонун негизинде маданияттардын интеграциясын "
 "байытат."
 
-#: templates/main.html:109
+#: .\templates\main.html:109
 msgid "Честность"
 msgstr "Чынчылдык"
 
-#: templates/main.html:111
+#: .\templates\main.html:111
 msgid ""
 "Честность – главный, руководящий принцип школы. Быть честным – значит "
 "выполнять обещания, следовать принятым в школе правилам и признавать "
@@ -823,15 +842,28 @@ msgstr ""
 "билдирүүлөрдө, иш-аракеттерде жана чечим кабыл алууда чынчыл, чынчыл. "
 "Чынчылдык ишенимди жаратат жана мүнөзгө күч берет."
 
-#: templates/main.html:117
+#: .\templates\main.html:117
 msgid "Ответственность"
 msgstr "Жоопкерчилик"
 
-#: templates/main.html:128
+#: .\templates\main.html:118
+msgid ""
+"Мы учим быть ответственным – за свой выбор, за свой успех, за свою жизнь. "
+"Быть ответственным за то, что ты делаешь и говоришь. Быть ответственным за "
+"то, кто ты, какой ты. Это также означает признание того, что все твои "
+"действия значимы и что ты несешь моральную ответственность за их последствия."
+msgstr ""
+"Биз жоопкерчиликтүү болууга үйрөтөбүз – тандообуз үчүн, ийгилигибиз үчүн, "
+"жашообуз үчүн. Кылган ишиң жана айтканың үчүн жооптуу болуу. Үчүн жооптуу "
+"болуу сен кимсиң, кандайсың. Бул ошондой эле баары сеники экенин моюнга алуу "
+"дегенди билдирет иш-аракеттер маанилүү жана алардын кесепеттери үчүн "
+"моралдык жоопкерчилик бар."
+
+#: .\templates\main.html:125
 msgid "Сотрудничество"
 msgstr "Кызматташуу"
 
-#: templates/main.html:130
+#: .\templates\main.html:127
 msgid ""
 "В школе создан особый, удивительный дух – дух сотрудничества, взаимопомощи, "
 "партнерства, сочувствия. У нас принято проявлять чуткость, заботу, щедрость, "
@@ -847,22 +879,12 @@ msgstr ""
 "терең достук, өз ара колдоо, ийгиликтерди урматтоону үйрөтөбүз башка, "
 "алардын эмгегин гана эмес, таанып, баалай билүү."
 
-#: templates/main.html:138
+#: .\templates\main.html:135
 msgid "Наши Лицензии"
 msgstr "Биздин Лицензиялар"
 
-#~ msgid ""
-#~ "Мы учим быть ответственным – за свой выбор, за свой успех, за свою жизнь. "
-#~ "Быть ответственным за то, что ты делаешь и говоришь. Быть ответственным "
-#~ "за то, кто ты, какой ты. Это также означает признание того, что все твои "
-#~ "действия значимы и что ты несешь моральную ответственность за их "
-#~ "последствия."
-#~ msgstr ""
-#~ "Биз жоопкерчиликтүү болууга үйрөтөбүз – тандообуз үчүн, ийгилигибиз үчүн, "
-#~ "жашообуз үчүн. Кылган ишиң жана айтканың үчүн жооптуу болуу. Үчүн жооптуу "
-#~ "болуу сен кимсиң, кандайсың. Бул ошондой эле баары сеники экенин моюнга "
-#~ "алуу дегенди билдирет иш-аракеттер маанилүү жана алардын кесепеттери үчүн "
-#~ "моралдык жоопкерчилик бар."
+#~ msgid "Мероприятия"
+#~ msgstr "Иш-чаралар"
 
 #~ msgid "Галерея"
 #~ msgstr "Галерея"

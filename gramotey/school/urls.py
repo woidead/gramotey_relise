@@ -1,7 +1,8 @@
 from django.urls import path
 from school.views import main, mentors, students, graduates, error_page
 from school.views import for_parents, admission_to_School, lesson_Schedule, meeting_schedule, uniform, payment_schedule
-from school.views import for_students_and_graduates, for_students, for_graduates, events
+from school.views import for_students_and_graduates, for_students, for_graduates
+
 
 urlpatterns = [
     path('', main, name='main'),
@@ -18,7 +19,6 @@ urlpatterns = [
     path('mentors', mentors, name='mentors'),
     path('students', students, name='students'),
     path('graduates', graduates, name='graduates'),
-    path('events', events, name='events'),
     
 
     path('error/', error_page, name='error')
