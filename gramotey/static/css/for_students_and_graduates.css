@@ -29,7 +29,9 @@ td {
 .title {
   text-align: center;
 }
-
+.green-link{
+  color: green;
+}
 .title>h3 {
   font-weight: 700;
   font-size: calc((1vw + 1vh) * 1.8);

@@ -94,7 +94,7 @@ button {
         margin-top: 30px;
     }
 
-    .modal-content {
+    .modal-content-licence {
         height: 90vh;
         margin: 30px auto;
         display: block;
@@ -102,9 +102,9 @@ button {
 }
 
 @media screen and (max-width: 500px) {
-    .modal-content {
-        height: 80vh;
-        margin: 30px auto;
+    .modal-content-licence {
+        height: 60vh;
+        margin: 60px auto;
         display: block;
     }
     .close {
@@ -114,7 +114,7 @@ button {
 }
 
 @media screen and (max-width: 375px) {
-    .modal-content {
+    .modal-content-licence {
         height: 70vh;
         margin: 60px auto;
         display: block;

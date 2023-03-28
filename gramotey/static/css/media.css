@@ -45,8 +45,8 @@
   .header_img {
     height: 90vh;
     width: 100%;
-    background: center / 2500px no-repeat url(/static/img/download/Panorama-pics.jpg);
-    /* background-image: url ('/static/img/download/Panorama-pics.jpg'); */
+    background: center / 2500px no-repeat url(/static/img/download/library.jpg);
+    /* background-image: url ('/static/img/download/library.jpg'); */
   }
 
   .openbtn {

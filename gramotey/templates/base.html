@@ -26,22 +26,21 @@
     <nav id="nav">
         <div class="nav_slogan">
             <div class="nav_slogan_container">
-                <!-- <img class="navsloganimage" src="{% static 'img/logos/Безымянный-1.png' %}" alt=""> -->
-            <p class="slogan">Scientia potentia est</p>
+            
             <p class="tel">LB140000265</p>
             </div>
             
         </div>
-        <div class="container">
             <div class="nav_content">
                 <div class="nav_logo">
-                    <h2>
+                    <h3>
                     <a href="{% url 'main' %}">
                         Gramotey School
                         <!-- <img src="{% static 'img/logos/logo2_green.png' %}" alt=""> -->
-                    </a> </h2>
-                    <!-- <img class="navsloganimageniz" src="{% static 'img/logos/слоган.png' %}" alt=""> -->
+                    </a> </h3>
                 </div>
+                    <h3 class="slogan">Scientia potentia est</h3>
+                    <!-- <img class="navsloganimageniz" src="{% static 'img/logos/слоган.png' %}" alt=""> -->
                 <ul class="nav_ul">
                     <div class="closebtn" onclick="closeNav()">✕</div>
                     <li>
@@ -53,7 +52,7 @@
                             <div class="dropdown-content">
                                 <a href="{% url 'admission_to_school' %}">{% trans 'Прием в школу' %}</a>
                                 <a href="{% url 'lesson_Schedule' %}">{% trans 'Расписание уроков' %}</a>
-                                <a href="{% url 'meeting_schedule' %}">{% trans 'Расписание родителских собраний' %}</a>
+                                <a href="{% url 'meeting_schedule' %}">{% trans 'Расписание родительских собраний' %}</a>
                                 <a href="{% url 'uniform' %}">{% trans 'Форма учащихся' %}</a>
                                 <a href="{% url 'payment_schedule' %}">{% trans 'График внесения оплаты' %}</a>
                             </div>
@@ -98,7 +97,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
     </nav>
 
     
