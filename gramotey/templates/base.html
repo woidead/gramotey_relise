@@ -32,6 +32,7 @@
             
         </div>
             <div class="nav_content">
+                <h3 class="slogan">Scientia potentia est</h3>
                 <div class="nav_logo">
                     <h3>
                     <a href="{% url 'main' %}">
@@ -39,7 +40,6 @@
                         <!-- <img src="{% static 'img/logos/logo2_green.png' %}" alt=""> -->
                     </a> </h3>
                 </div>
-                    <h3 class="slogan">Scientia potentia est</h3>
                     <!-- <img class="navsloganimageniz" src="{% static 'img/logos/слоган.png' %}" alt=""> -->
                 <ul class="nav_ul">
                     <div class="closebtn" onclick="closeNav()">✕</div>
@@ -118,14 +118,19 @@
 
                 <div class="footer__links">
                     <h2>{% trans 'Контакты' %}</h2>
-                    <p>{% trans 'г. Ош, ул.Шамшиева 1а' %}</p>
+                    <div class="from">
+
+                        <a class="main-state-link" target="_blank" href="https://www.google.com/maps/place/%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F+1%D0%90/@40.5079253,72.8149352,17z/data=!3m1!4b1!4m6!3m5!1s0x38bdaf330407c27d:0xe5dba1667de47817!8m2!3d40.5079212!4d72.8171239!16s%2Fg%2F11rbvn5016">
+                            {% trans 'г. Ош, ул.Шамшиева 1а' %}</a>
+                            
+                        </div>
                     <div class="from">
                         <i class="fa-solid fa-phone"></i>
-                        <a href="#">+996-3222-5-64-27</a>
+                        <a href="tel:996-3222-5-64-27">+996-3222-5-64-27</a>
                     </div>
                     <div class="from">
                         <i class="fa-solid fa-envelope"></i>
-                        <a href="#">info@gmail.com</a>
+                        <a href="mail:info@gmail.com">info@gmail.com</a>
                     </div>
                 </div>
             </div>

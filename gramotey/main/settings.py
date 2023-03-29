@@ -96,21 +96,20 @@ WSGI_APPLICATION = 'main.wsgi.application'
 # }
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/gramotey.school/public_html/gramotey/public/static'
+# STATIC_ROOT = ''
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
-
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'gram_mura',
-        'USER': 'gram_mura',
-        'PASSWORD': 'mura',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
