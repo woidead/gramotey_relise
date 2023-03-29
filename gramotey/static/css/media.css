@@ -52,7 +52,9 @@
   .openbtn {
     display: block;
   }
-
+.slogan{
+  display: none;
+}
   .nav_slogan {
     display: none;
   }

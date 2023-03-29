@@ -95,6 +95,14 @@ WSGI_APPLICATION = 'main.wsgi.application'
 #     }
 # }
 
+STATIC_URL = '/static/'
+# STATIC_ROOT = ''
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -149,14 +157,6 @@ SITE_ID = 1
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = '/static/'
-# STATIC_ROOT = ''
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field

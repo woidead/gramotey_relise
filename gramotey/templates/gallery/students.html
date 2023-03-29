@@ -9,7 +9,7 @@
                 <h3 style="color: black;">{% trans 'Знакомьтесь, наши ученики' %}</h3>
             </div>
             <div class="events__cards">
-                {% for i in events %}
+                {% for i in students %}
                 <div class="events__card">
 
                     <img class="eventsImg" id="myimg" src="{{i.image.url}}" alt=""
@@ -18,7 +18,7 @@
 
                     <div id="myModal" class="modal">
                         <span class="close" onclick="closeModal()">&times;</span>
-                        <img src='{{i.image.url}}' alt='' class="modal-content" id="img01">
+                        <img src='{{i.image.url}}' alt='' class="modal-content-events" id="img01">
                     </div>
 
                 </div>

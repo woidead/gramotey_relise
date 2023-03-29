@@ -318,6 +318,8 @@ ul.nav_ul {
   animation: myAnim3 1s ease 0s 1 reverse both;
 }
 
+
+
 @keyframes myAnim {
   0% {
     opacity: 1;
@@ -901,9 +903,18 @@ h3 {
 .licence_div {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .licence>img {
   height: 300px;
+}
+.first-line-licence{
+  display: flex;
+  justify-content: space-evenly;
+}
+.second-line-licence{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }

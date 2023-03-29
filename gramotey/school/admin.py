@@ -16,7 +16,7 @@ class ImageAdmin(admin.ModelAdmin):
     list_display = ('image')
 
 admin.site.register(Teacher, TeacherAdmin)
-admin.site.register(Student, TeacherAdmin)
+admin.site.register(Student)
 admin.site.register(Graduate, TeacherAdmin)
 
 admin.site.register(Category)

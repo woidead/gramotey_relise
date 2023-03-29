@@ -16,8 +16,7 @@ class Teacher(models.Model):
 
 
 class Student(models.Model):
-    name = models.CharField(max_length=255, verbose_name='Фамилия Имя Отчество')
-    category = models.ForeignKey(to=Category, verbose_name='Должность', on_delete=models.CASCADE)
+    
     image = models.ImageField(verbose_name='Изображение')
 
 class Graduate(models.Model):

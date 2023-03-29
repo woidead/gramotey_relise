@@ -29,6 +29,19 @@
 
 }
 
+.modal-content-events {
+    height: 90vh;
+    margin: 30px auto;
+    display: block;
+
+}
+
+.modal-content-licence {
+    height: 90vh;
+    margin: 30px auto;
+    display: block;
+}
+
 #caption {
     margin: auto;
     display: block;
@@ -95,8 +108,20 @@ button {
     }
 
     .modal-content-licence {
-        height: 90vh;
+        height: 80vh;
         margin: 30px auto;
+        display: block;
+    }
+
+    .modal-content {
+        height: 80vh;
+        margin: 30px auto;
+        display: block;
+    }
+
+    .modal-content-events {
+        height: 480px;;
+        margin: 60px auto;
         display: block;
     }
 }
@@ -107,15 +132,40 @@ button {
         margin: 60px auto;
         display: block;
     }
+
+    .modal-content {
+        height: 60vh;
+        margin: 60px auto;
+        display: block;
+    }
+
+    .modal-content-events {
+        height: 240px;
+        margin: 60px auto;
+        display: block;
+    }
+
     .close {
         right: 15px;
-        
+
     }
 }
 
 @media screen and (max-width: 375px) {
     .modal-content-licence {
-        height: 70vh;
+        height: 60vh;
+        margin: 60px auto;
+        display: block;
+    }
+
+    .modal-content {
+        height: 60vh;
+        margin: 60px auto;
+        display: block;
+    }
+
+    .modal-content-events {
+        height: 200px;
         margin: 60px auto;
         display: block;
     }
