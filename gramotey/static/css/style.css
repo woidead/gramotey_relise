@@ -187,10 +187,13 @@ input[type="password"] {
   font-family: Canterbury;
   color: #1a633b;
   margin-left: 20px;
+  font-size: 26px;
 }
+
 .nav_logo a {
   font-family: Canterbury;
   color: #1a633b;
+  font-size: 36px;
 }
 
 .nav_slogan_container {
@@ -910,9 +913,18 @@ h3 {
 .first-line-licence{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px 0;
 }
 .second-line-licence{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: 10px 0;
+}
+.third-line-licence{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px 0;
 }
