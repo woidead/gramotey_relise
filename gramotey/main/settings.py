@@ -94,19 +94,20 @@ WSGI_APPLICATION = 'main.wsgi.application'
 
 #     }
 # }
-
 STATIC_URL = '/static/'
-# STATIC_ROOT = ''
+STATIC_ROOT = '/home/gramotey.school/public_html/gramotey/public/static'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'gram_mura',
+        'USER': 'gram_mura',
+        'PASSWORD': 'mura',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
     }
 }
 
